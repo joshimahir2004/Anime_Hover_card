@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  background-color: RGB(28, 28, 28);
+}
+#heading {
+  color: white;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 42% 50%;
+}
+
+.card {
+font-family: 'Roboto', sans-serif;;
+  margin-top: 0.5rem;
+  margin-left: 7rem;
+  margin-bottom: 0.5rem;
+  width: 35rem;
+  height: 38rem;
+  overflow: hidden;
+}
+.card_1 {
+    background-image: url(img/download\ \(2\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
+    background-position: left 80%;
+}
+.card_1_1 {
+    font-weight: bold;
+    padding: 2rem 2rem;
+    color: white;
+    background-color: orange;
+    width: 31rem;
+    height: 35rem;
+    transform: translateY(-50rem);
+    transition: transform 0.5s ease-in-out;
+}
+.card_2 {
+    background-image: url(img/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
+    background-position: center; 
+    
+}
+.card_2_2 {
+    font-weight: bold;
+    padding: 2rem 2rem;
+    color: white;
+    background-color: #ed143d;
+    width: 31rem;
+  height: 35rem;
+  transform: translateY(-50rem);
+  transition: transform 0.5s ease-in-out;
+  
+}
+.card_3 {
+  background-image: url(img/download\ \(1\).jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 1s ease-in-out;
+  background-position: center; 
+  
+}
+.card_3_3 {
+  font-weight: bold;
+  padding: 2rem 2rem;
+  color: white;
+  background-color: rgb(175, 69, 27);
+  width: 31rem;
+  height: 35rem;
+  transform: translateY(-50rem);
+  transition: transform 0.6s ease-in-out;
+  
+}
+.card_4 {
+    background-image: url(img/download\ \(3\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
+    background-position: left 90%; 
+}
+.card_4_4 {
+    font-weight: bold;
+    padding: 2rem 2rem;
+    color: white;
+    background-color:black;
+    width: 31rem;
+    height: 35rem;
+    transform: translateY(-50rem);
+  transition: transform 0.5s ease-in-out;
+  
+  
+}
+.card_5 {
+    background-image: url(img/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  transition: transform 1s ease-in-out;
+  background-position: left 80%; 
+
+}
+.card_5_5 {
+    font-weight: bold;
+    padding: 2rem 2rem;
+    color: white;
+    background-color:#008000;
+    width: 31rem;
+    height: 35rem;
+    transform: translateY(-50rem);
+    transition: transform 0.5s ease-in-out;
+    
+    
+}
+.card_6 {
+    background-image: url(img/MV5BNGY4MTg3NzgtMmFkZi00NTg5LWExMmEtMWI3YzI1ODdmMWQ1XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
+    background-position: center; 
+    
+}
+.card_6_6 {
+    font-weight: bold;
+  padding: 2rem 2rem;
+  color: white;
+  background-color:  rgb(0, 0, 51);
+  width: 31rem;
+  height: 35rem;
+  transform: translateY(-50rem);
+  transition: transform 0.5s ease-in-out;
+  
+  
+}
+ul{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.anime_name {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.button {
+    font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.6rem;
+  border-radius: 9px;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+}
+
+.card_1:hover .card_1_1 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+.card_2:hover .card_2_2 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+.card_3:hover .card_3_3 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+.card_4:hover .card_4_4 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+.card_5:hover .card_5_5 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+.card_6:hover .card_6_6 {
+    transform: translateY(0rem);
+    margin-top: 0;
+}
+
+    footer {
+    background-color:#26272b;
+    color: white;
+   
+  }
+  footer .name{
+   font-size: 22px;
+
+  }
+  .list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  footer h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 22px;
+  }
+  footer h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  footer li {
+
+
+    text-decoration: underline;
+  }
+  footer li a {
+    color: white;
+
+  }
+/* 
+@media screen and (max-width: 400px){
+    .container{
+        display: block;
+        margin-left:1rem;
+        
+        
+    }
+    
+    .card{
+     padding-right: 1rem;
+    overflow: scroll;
+    
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 16rem;
+    height: 20rem;
+    }
+   
+    .card::-webkit-scrollbar {
+        display: none;
+      }
+
+.card_1_1{
+
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_2_2{
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_3_3{
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_4_4{
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_5_5{
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_6_6{
+    width: 16rem;
+    height: 20rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+    
+}
+@media screen and (max-width: 1500px){
+    .container{
+        margin-left: 17rem;
+        grid-template-columns:40% 50%;
+    }
+    .card{
+     padding-right: 1rem;
+    overflow: scroll;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 19rem;
+    height: 24rem;
+    }
+    .card::-webkit-scrollbar {
+        display: none;
+      }
+
+.card_1_1{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_2_2{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_3_3{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_4_4{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_5_5{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+.card_6_6{
+  width: 19rem;
+  height: 24rem;
+    padding-left: 0.4rem;
+    font-size: small;
+}
+} */
